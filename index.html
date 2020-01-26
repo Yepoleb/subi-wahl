@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Subi für Laa (an der Thaya)</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Roboto, sans-serif;
+        font-weight: 300;
+      }
+      .flex-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      #top {
+        background: url("rathaus.jpeg");
+        background-size: 100% auto;
+        background-position: center;
+        height: 600px;
+        text-align: center;
+      }
+      #slogan {
+        font-size: 4rem;
+      }
+      #quote {
+        font-size: 2rem;
+      }
+      #story {
+        height: 400px;
+        font-size: 1.5rem;
+        flex-direction: row;
+      }
+      #story-text {
+        width: 50%;
+        margin: 0 50px;
+      }
+      #biggest {
+        background: url("buergerspital.jpeg");
+        background-size: 100% auto;
+        background-position: center;
+        height: 400px;
+        font-size: 3rem;
+        text-align: center;
+      }
+      #money {
+        height: 300px;
+        font-size: 2rem;
+      }
+      #testimonials-sect {
+        background: #ffb363;
+      }
+      #testimonials {
+        max-width: 1000px;
+      }
+      #credits {
+        margin: 30px;
+      }
+      .stroked {
+        color: white;
+        text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+      }
+      .person {
+        width: 200px;
+        flex-shrink: 0;
+        margin: 0 30px;
+      }
+      .testim-text {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+        font-size: 1.7rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="top" class="flex-container">
+      <div id="slogan" class="stroked">Ein sehr guter Bürgermeisterkandidat</div>
+      <div id="quote" class="stroked">"Ich bin gekommen, um euch von euren Sünden zu erlösen"</div>
+    </div>
+    <div id="story" class="flex-container">
+      <img src="subi.png" width="200" height="200">
+      <div id="story-text">
+        Ich wurde vor vielen Jahren hier geboren. Gemeinsam mit meiner
+        Familie (aber hauptsächlich ich alleine) habe ich Laa zu dem
+        gemacht, was es heute ist. Jetzt brauche ich Ihre Unterstützung,
+        damit wir gemeinsam für Laa noch mehr erreichen können.
+        <br><br>
+        "laa ist toll" - subi
+      </div>
+    </div>
+    <div id="biggest" class="flex-container stroked">
+      Eine der größten Persönlichkeiten des Landes Niederösterreich...
+    </div>
+    <div id="money" class="flex-container">
+      <div>
+        Mehr Geld für alle!
+        <br><br>
+        "die leute wollen geld, sie mögen geld, glaub mir" - subi
+      </div>
+    </div>
+    <div id="testimonials-sect" class="flex-container">
+      <div id="testimonials" class="flex-container">
+        <div class="testim-text">
+          <img src="person1.jpg" class="person">
+          Ich finde subi sehr nett und er wäre ein guter Bürgermeister.
+        </div>
+        <div class="testim-text">
+          <img src="person2.jpg" class="person">
+          Ich will Geld und subi will es mir geben, daher wähle ich ihn.
+        </div>
+        <div class="testim-text">
+          <img src="person3.jpg" class="person">
+          Boah subi ist voll gechillt, ich liebe den Typen. Manchmal
+          teilt er seine Kräuter mit mir, wenn ich beim Kochen bin, das
+          ist voll korrekt von ihm.
+        </div>
+      </div>
+    </div>
+    <div id="credits-cont" class="flex-container">
+      <div id="credits">
+      Bildquellen:<br>
+      Rathaus, Bürgerspital: Stadtgemeinde Laa an der Thaya<br>
+      Person 1: Marcos Paulo Prado, unsplash.com<br>
+      Person 2: Noah Buscher, unsplash.com<br>
+      Person 3: Steven Aguilar, unsplash.com<br>
+      Subi: Reknits
+      </div>
+    </div>
+  </body>
+</html>
